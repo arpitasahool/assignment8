@@ -84,7 +84,7 @@ class MovieDetails:
         self.ratings = ratings
     
     def display(self):
-        print('Movie details are :: Artist Name: {}, Year of Release: {}, Ratings: {}'.              format(self.artistname, self.release,self.ratings), end=' ')
+        print('Movie details are :: Artist Name: {}, Year of Release: {}, Ratings: {}'.format(self.artistname, self.release,self.ratings), end=' ')
 
     def add(self,mname):
         self.mname=mname
